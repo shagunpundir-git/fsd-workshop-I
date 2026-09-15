@@ -1,0 +1,18 @@
+let d = 9007199254740991n;
+console.log(d);
+let a = BigInt(d);
+console.log(a);
+let b = BigInt(1000);
+let e = a+b;
+console.log(e);
+let x;
+console.log(typeof(x));
+let y = null;
+console.log(typeof(y));
+let z = undefined;
+console.log(typeof(z));
+let h = Symbol();
+let h1 = Symbol();
+console.log(h === h1);
+let i = 10n;
+console.log(typeof(i));
