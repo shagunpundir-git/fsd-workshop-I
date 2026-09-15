@@ -9,3 +9,5 @@ console.log(data);
 //append
 fs.appendFileSync("student.txt", "\nMarks : 85\nAttendance : 92%");
 
+// // if want to delete data
+// fs.unlinkSync("user.txt");
